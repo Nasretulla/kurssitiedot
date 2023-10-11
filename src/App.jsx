@@ -37,7 +37,6 @@ const Content = (props) => {
     </>
   );
 };
-
 const Total = (props) => {
   console.log(props);
   const summa =
@@ -45,7 +44,7 @@ const Total = (props) => {
     props.kurssi.parts[1].exercises +
     props.kurssi.parts[2].exercises;
 
-  return <p>Kurssilla on yhteensä {summa} harjoitusta</p>;
+  return <p>Kurssilla on yhteensä {summa} harjoitusta.</p>;
 };
 
 const App = () => {
