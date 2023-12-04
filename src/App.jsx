@@ -8,7 +8,7 @@ const Header = (props) => {
 };
 
 const Part = (props) => {
-  console.log("TÄMÄ ON PART", props);
+  console.log("Tämä on part", props);
   return (
     <>
       <p>
